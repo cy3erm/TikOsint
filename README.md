@@ -1,51 +1,51 @@
-# 🎯 TikOsint — TikTok OSINT Metadata Recon Toolkit
+#  TikOsint — TikTok OSINT Metadata Recon Toolkit
 
 **TikOsint** is an educational OSINT (Open Source Intelligence) tool that scrapes publicly available TikTok user metadata **directly from profile pages** using the hydration payload embedded in the HTML.
 
-> ✅ No login  
-> ✅ No API keys  
-> ✅ No browser automation  
-> ✅ Terminal-only recon
+>  No login  
+>  No API keys  
+>  No browser automation  
+>  Terminal-only recon
 
 ---
 
-## 🧠 Why Use TikOsint?
+##  Why Use TikOsint?
 
-- 🔍 Perform TikTok recon and passive footprinting  
-- 🧑‍💻 Collect metadata for bug bounty reports  
-- 👁️‍🗨️ Analyze privacy exposure of public and private profiles  
-- 🛡️ Explore fingerprinting vectors using `secUid`, `region`, etc.  
-- 🚫 No TikTok developer account required
+-  Perform TikTok recon and passive footprinting  
+-  Collect metadata for bug bounty reports  
+-  Analyze privacy exposure of public and private profiles  
+-  Explore fingerprinting vectors using `secUid`, `region`, etc.  
+-  No TikTok developer account required
 
 ---
 
-## 📋 Features
+## Features
 
 | Feature               | Description                                   |
 |----------------------|-----------------------------------------------|
-| 📝 **Username**            | From profile URL or direct input             |
-| 👤 **Display Name**        | TikTok screen name                          |
-| 🖋️ **Bio**                | User’s bio field                            |
-| 🖼️ **Avatar URL**         | Direct image link                           |
-| ✅❌ **Verified**          | Shows if user is verified                    |
-| 🔒🔓 **Private Account**   | True/False from backend                      |
-| 👥 **Followers**           | Number of followers                         |
-| 🔄 **Following**           | Number of accounts followed                 |
-| ❤️ **Likes**              | Total likes                                 |
-| 🎥 **Video Count**         | Total published videos                      |
-| 🌍 **Region**              | Country code (from hydration JSON)          |
-| 📆 **Account Created**     | UTC timestamp of signup                     |
-| 🔑 **secUid**              | Persistent backend identifier               |
-| 🔓 **openId / unionId**    | Exposed internal IDs (if present)           |
-| 🔗 **Profile Deep Link**   | Backend deep link URL                       |
-| ⚙️ **Privacy Flags**       | Includes `secret`, `openFavorite`, etc.     |
-| 🔗 **Linked Accounts**     | Instagram, YouTube, Twitter, Discord, Email |
+|  **Username**            | From profile URL or direct input             |
+|  **Display Name**        | TikTok screen name                          |
+|  **Bio**                | User’s bio field                            |
+|  **Avatar URL**         | Direct image link                           |
+|  **Verified**          | Shows if user is verified                    |
+|  **Private Account**   | True/False from backend                      |
+|  **Followers**           | Number of followers                         |
+|  **Following**           | Number of accounts followed                 |
+|  **Likes**              | Total likes                                 |
+|  **Video Count**         | Total published videos                      |
+|  **Region**              | Country code (from hydration JSON)          |
+|  **Account Created**     | UTC timestamp of signup                     |
+|  **secUid**              | Persistent backend identifier               |
+|  **openId / unionId**    | Exposed internal IDs (if present)           |
+|  **Profile Deep Link**   | Backend deep link URL                       |
+|  **Privacy Flags**       | Includes `secret`, `openFavorite`, etc.     |
+|  **Linked Accounts**     | Instagram, YouTube, Twitter, Discord, Email |
 
-> 🔐 **Includes support for detecting leaks on _private_ profiles** — critical for recon and bug bounty analysis.
+>  **Includes support for detecting leaks on _private_ profiles** — critical for recon and bug bounty analysis.
 
 ---
 
-## 🐧 Installation (Linux)
+##  Installation (Linux)
 
 ```bash
 git clone https://github.com/cybermoro/TikOsint.git
@@ -74,7 +74,7 @@ Privacy Flags:
   openFavorite: False
   showFavoriteList: None
 ```
-## 📦 Dependencies :
+##  Dependencies :
 
 - Python 3.x
 
